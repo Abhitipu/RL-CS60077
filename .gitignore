@@ -1,0 +1,5 @@
+# jupyter nb checkpoints
+.ipynb_checkpoints/
+
+# reward pickle files
+rewards/
