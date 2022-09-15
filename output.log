@@ -1,0 +1,144 @@
+Tweaking gravity
+Training model
+Testing model
+Average reward over 1000 episodes = 95.544 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 104.118 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 145.577 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 217.555 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 152.159 
+
+
+Training time correlations: [ 9.56121575e-04 -3.78032434e-03  1.00000000e+00 -1.92884700e-03
+ -2.86244893e-03]
+Mean: [ 95.544 104.118 145.577 217.555 152.159], Standard deviation: [ 52.73647755  25.28557051 104.92070373  77.70424039  50.11897564]
+Tweaking masscart
+Training model
+Testing model
+Average reward over 1000 episodes = 107.141 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 105.627 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 164.319 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 119.064 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 115.891 
+
+
+Training time correlations: [ 2.26945127e-03 -1.19536855e-03  1.00000000e+00  5.43424299e-04
+ -8.29473125e-04]
+Mean: [107.141 105.627 164.319 119.064 115.891], Standard deviation: [71.37943064 52.49843684 66.50288143 46.05574778 33.21886691]
+Tweaking masspole
+Training model
+Testing model
+Average reward over 1000 episodes = 56.478 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 114.307 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 120.345 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 108.813 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 73.796 
+
+
+Training time correlations: [ 0.00271101 -0.00111081  1.          0.00356792 -0.00543541]
+Mean: [ 56.478 114.307 120.345 108.813  73.796], Standard deviation: [ 23.11703952  75.23506331  53.96624848 144.18285623  28.40395015]
+Tweaking length
+Training model
+Testing model
+Average reward over 1000 episodes = 114.187 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 57.581 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 88.451 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 82.813 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 116.197 
+
+
+Training time correlations: [ 6.64075574e-04 -3.88098012e-03  1.00000000e+00 -4.23870355e-03
+  3.81756867e-03]
+Mean: [114.187  57.581  88.451  82.813 116.197], Standard deviation: [21.47808257 41.18853529 43.16681131 35.52514646 68.45274422]
+Tweaking force_mag
+Training model
+Testing model
+Average reward over 1000 episodes = 116.6 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 143.364 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 102.702 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 99.753 
+
+
+Training model
+Testing model
+Average reward over 1000 episodes = 154.93 
+
+
+Training time correlations: [ 2.66861466e-03  2.85326033e-03  1.00000000e+00  2.01328719e-04
+ -1.95480629e-03]
+Mean: [116.6   143.364 102.702  99.753 154.93 ], Standard deviation: [ 70.62689289  74.60921863  74.43158735  48.94925935 112.6464074 ]
