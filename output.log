@@ -1,0 +1,165 @@
+Tweaking gravity
+Training model
+Testing model
+Average reward over 1000 episodes = 135.556 
+
+
+Mean 135.556 and deviation 29.070171378923792
+Training model
+Testing model
+Average reward over 1000 episodes = 135.825 
+
+
+Mean 135.825 and deviation 28.274235179753315
+Training model
+Testing model
+Average reward over 1000 episodes = 39.65 
+
+
+Mean 39.65 and deviation 30.14517374307204
+Training model
+Testing model
+Average reward over 1000 episodes = 38.124 
+
+
+Mean 38.124 and deviation 18.345370642208348
+Training model
+Testing model
+Average reward over 1000 episodes = 29.089 
+
+
+Mean 29.089 and deviation 33.46602873063967
+Training time correlations: [ 0.18094698 -0.02569773  1.          0.04176539  0.07738647]
+Mean: [135.556 135.825  39.65   38.124  29.089], Standard deviation: [29.07017138 28.27423518 30.14517374 18.34537064 33.46602873]
+Tweaking masscart
+Training model
+Testing model
+Average reward over 1000 episodes = 126.108 
+
+
+Mean 126.108 and deviation 24.67817529721353
+Training model
+Testing model
+Average reward over 1000 episodes = 64.83 
+
+
+Mean 64.83 and deviation 35.164742285419926
+Training model
+Testing model
+Average reward over 1000 episodes = 176.282 
+
+
+Mean 176.282 and deviation 42.14292913407895
+Training model
+Testing model
+Average reward over 1000 episodes = 115.053 
+
+
+Mean 115.053 and deviation 8.326115000406851
+Training model
+Testing model
+Average reward over 1000 episodes = 56.669 
+
+
+Mean 56.669 and deviation 26.317891993850875
+Training time correlations: [-0.00359022  0.07840928  1.         -0.07096369  0.01279867]
+Mean: [126.108  64.83  176.282 115.053  56.669], Standard deviation: [24.6781753  35.16474229 42.14292913  8.326115   26.31789199]
+Tweaking masspole
+Training model
+Testing model
+Average reward over 1000 episodes = 214.11 
+
+
+Mean 214.11 and deviation 55.931260489997904
+Training model
+Testing model
+Average reward over 1000 episodes = 220.14 
+
+
+Mean 220.14 and deviation 67.34793538038119
+Training model
+Testing model
+Average reward over 1000 episodes = 111.356 
+
+
+Mean 111.356 and deviation 21.3242412291739
+Training model
+Testing model
+Average reward over 1000 episodes = 113.595 
+
+
+Mean 113.595 and deviation 31.80356858907503
+Training model
+Testing model
+Average reward over 1000 episodes = 57.199 
+
+
+Mean 57.199 and deviation 42.011538879217454
+Training time correlations: [0.18241979 0.32590341 1.         0.2751133  0.19290885]
+Mean: [214.11  220.14  111.356 113.595  57.199], Standard deviation: [55.93126049 67.34793538 21.32424123 31.80356859 42.01153888]
+Tweaking length
+Training model
+Testing model
+Average reward over 1000 episodes = 115.186 
+
+
+Mean 115.186 and deviation 5.441084818305997
+Training model
+Testing model
+Average reward over 1000 episodes = 113.133 
+
+
+Mean 113.133 and deviation 21.226241094456643
+Training model
+Testing model
+Average reward over 1000 episodes = 182.608 
+
+
+Mean 182.608 and deviation 61.283067286159884
+Training model
+Testing model
+Average reward over 1000 episodes = 104.714 
+
+
+Mean 104.714 and deviation 25.474540309885867
+Training model
+Testing model
+Average reward over 1000 episodes = 134.655 
+
+
+Mean 134.655 and deviation 29.593275840974414
+Training time correlations: [-0.08246464  0.03455825  1.          0.11563522 -0.03267048]
+Mean: [115.186 113.133 182.608 104.714 134.655], Standard deviation: [ 5.44108482 21.22624109 61.28306729 25.47454031 29.59327584]
+Tweaking force_mag
+Training model
+Testing model
+Average reward over 1000 episodes = 135.696 
+
+
+Mean 135.696 and deviation 10.752747741856496
+Training model
+Testing model
+Average reward over 1000 episodes = 89.511 
+
+
+Mean 89.511 and deviation 60.17261735208133
+Training model
+Testing model
+Average reward over 1000 episodes = 118.019 
+
+
+Mean 118.019 and deviation 104.90063221449144
+Training model
+Testing model
+Average reward over 1000 episodes = 471.86 
+
+
+Mean 471.86 and deviation 34.252509397123006
+Training model
+Testing model
+Average reward over 1000 episodes = 111.254 
+
+
+Mean 111.254 and deviation 14.432861254789364
+Training time correlations: [ 0.18001166  0.03036233  1.         -0.20134394  0.02598769]
+Mean: [135.696  89.511 118.019 471.86  111.254], Standard deviation: [ 10.75274774  60.17261735 104.90063221  34.2525094   14.43286125]
