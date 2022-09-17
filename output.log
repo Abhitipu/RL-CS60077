@@ -1,165 +1,165 @@
 Tweaking gravity
 Training model
 Testing model
-Average reward over 1000 episodes = 135.556 
+Average reward over 1000 episodes = 130.017 
 
 
-Mean 135.556 and deviation 29.070171378923792
+Mean 130.017 and deviation 9.809827266573047
 Training model
 Testing model
-Average reward over 1000 episodes = 135.825 
+Average reward over 1000 episodes = 107.619 
 
 
-Mean 135.825 and deviation 28.274235179753315
+Mean 107.619 and deviation 28.33164024549232
 Training model
 Testing model
-Average reward over 1000 episodes = 39.65 
+Average reward over 1000 episodes = 147.795 
 
 
-Mean 39.65 and deviation 30.14517374307204
+Mean 147.795 and deviation 23.712970606821912
 Training model
 Testing model
-Average reward over 1000 episodes = 38.124 
+Average reward over 1000 episodes = 105.954 
 
 
-Mean 38.124 and deviation 18.345370642208348
+Mean 105.954 and deviation 29.850860691109062
 Training model
 Testing model
-Average reward over 1000 episodes = 29.089 
+Average reward over 1000 episodes = 122.432 
 
 
-Mean 29.089 and deviation 33.46602873063967
-Training time correlations: [ 0.18094698 -0.02569773  1.          0.04176539  0.07738647]
-Mean: [135.556 135.825  39.65   38.124  29.089], Standard deviation: [29.07017138 28.27423518 30.14517374 18.34537064 33.46602873]
+Mean 122.432 and deviation 57.056335108382136
+Training time correlations: [-0.09996298 -0.13572036  1.          0.06860997  0.21267566]
+Mean: [130.017 107.619 147.795 105.954 122.432], Standard deviation: [ 9.80982727 28.33164025 23.71297061 29.85086069 57.05633511]
 Tweaking masscart
 Training model
 Testing model
-Average reward over 1000 episodes = 126.108 
+Average reward over 1000 episodes = 213.219 
 
 
-Mean 126.108 and deviation 24.67817529721353
+Mean 213.219 and deviation 87.09126844293864
 Training model
 Testing model
-Average reward over 1000 episodes = 64.83 
+Average reward over 1000 episodes = 120.823 
 
 
-Mean 64.83 and deviation 35.164742285419926
+Mean 120.823 and deviation 32.73416672224909
 Training model
 Testing model
-Average reward over 1000 episodes = 176.282 
+Average reward over 1000 episodes = 212.643 
 
 
-Mean 176.282 and deviation 42.14292913407895
+Mean 212.643 and deviation 85.95426429793929
 Training model
 Testing model
-Average reward over 1000 episodes = 115.053 
+Average reward over 1000 episodes = 437.89 
 
 
-Mean 115.053 and deviation 8.326115000406851
+Mean 437.89 and deviation 90.07958647773647
 Training model
 Testing model
-Average reward over 1000 episodes = 56.669 
+Average reward over 1000 episodes = 67.121 
 
 
-Mean 56.669 and deviation 26.317891993850875
-Training time correlations: [-0.00359022  0.07840928  1.         -0.07096369  0.01279867]
-Mean: [126.108  64.83  176.282 115.053  56.669], Standard deviation: [24.6781753  35.16474229 42.14292913  8.326115   26.31789199]
+Mean 67.121 and deviation 55.878353223766354
+Training time correlations: [0.10151665 0.17252619 1.         0.33107924 0.14987402]
+Mean: [213.219 120.823 212.643 437.89   67.121], Standard deviation: [87.09126844 32.73416672 85.9542643  90.07958648 55.87835322]
 Tweaking masspole
 Training model
 Testing model
-Average reward over 1000 episodes = 214.11 
+Average reward over 1000 episodes = 119.656 
 
 
-Mean 214.11 and deviation 55.931260489997904
+Mean 119.656 and deviation 8.185454416219052
 Training model
 Testing model
-Average reward over 1000 episodes = 220.14 
+Average reward over 1000 episodes = 100.287 
 
 
-Mean 220.14 and deviation 67.34793538038119
+Mean 100.287 and deviation 25.406704449810093
 Training model
 Testing model
-Average reward over 1000 episodes = 111.356 
+Average reward over 1000 episodes = 434.675 
 
 
-Mean 111.356 and deviation 21.3242412291739
+Mean 434.675 and deviation 61.24822752537415
 Training model
 Testing model
-Average reward over 1000 episodes = 113.595 
+Average reward over 1000 episodes = 142.363 
 
 
-Mean 113.595 and deviation 31.80356858907503
+Mean 142.363 and deviation 8.16585764019922
 Training model
 Testing model
-Average reward over 1000 episodes = 57.199 
+Average reward over 1000 episodes = 114.892 
 
 
-Mean 57.199 and deviation 42.011538879217454
-Training time correlations: [0.18241979 0.32590341 1.         0.2751133  0.19290885]
-Mean: [214.11  220.14  111.356 113.595  57.199], Standard deviation: [55.93126049 67.34793538 21.32424123 31.80356859 42.01153888]
+Mean 114.892 and deviation 5.187517325272273
+Training time correlations: [0.14922982 0.11877271 1.         0.27727895 0.15757908]
+Mean: [119.656 100.287 434.675 142.363 114.892], Standard deviation: [ 8.18545442 25.40670445 61.24822753  8.16585764  5.18751733]
 Tweaking length
 Training model
 Testing model
-Average reward over 1000 episodes = 115.186 
+Average reward over 1000 episodes = 179.599 
 
 
-Mean 115.186 and deviation 5.441084818305997
+Mean 179.599 and deviation 140.08139133732217
 Training model
 Testing model
-Average reward over 1000 episodes = 113.133 
+Average reward over 1000 episodes = 129.013 
 
 
-Mean 113.133 and deviation 21.226241094456643
+Mean 129.013 and deviation 32.559435360583265
 Training model
 Testing model
-Average reward over 1000 episodes = 182.608 
+Average reward over 1000 episodes = 475.0 
 
 
-Mean 182.608 and deviation 61.283067286159884
+Mean 475.0 and deviation 0.0
 Training model
 Testing model
-Average reward over 1000 episodes = 104.714 
+Average reward over 1000 episodes = 105.714 
 
 
-Mean 104.714 and deviation 25.474540309885867
+Mean 105.714 and deviation 32.07578843925742
 Training model
 Testing model
-Average reward over 1000 episodes = 134.655 
+Average reward over 1000 episodes = 124.059 
 
 
-Mean 134.655 and deviation 29.593275840974414
-Training time correlations: [-0.08246464  0.03455825  1.          0.11563522 -0.03267048]
-Mean: [115.186 113.133 182.608 104.714 134.655], Standard deviation: [ 5.44108482 21.22624109 61.28306729 25.47454031 29.59327584]
+Mean 124.059 and deviation 174.81690284122988
+Training time correlations: [-0.23836638  0.19418673  1.          0.00792716  0.30650499]
+Mean: [179.599 129.013 475.    105.714 124.059], Standard deviation: [140.08139134  32.55943536   0.          32.07578844 174.81690284]
 Tweaking force_mag
 Training model
 Testing model
-Average reward over 1000 episodes = 135.696 
+Average reward over 1000 episodes = 107.165 
 
 
-Mean 135.696 and deviation 10.752747741856496
+Mean 107.165 and deviation 23.01629368512663
 Training model
 Testing model
-Average reward over 1000 episodes = 89.511 
+Average reward over 1000 episodes = 109.868 
 
 
-Mean 89.511 and deviation 60.17261735208133
+Mean 109.868 and deviation 18.394036424885105
 Training model
 Testing model
-Average reward over 1000 episodes = 118.019 
+Average reward over 1000 episodes = 113.528 
 
 
-Mean 118.019 and deviation 104.90063221449144
+Mean 113.528 and deviation 26.2576696605011
 Training model
 Testing model
-Average reward over 1000 episodes = 471.86 
+Average reward over 1000 episodes = 109.549 
 
 
-Mean 471.86 and deviation 34.252509397123006
+Mean 109.549 and deviation 23.0973937707266
 Training model
 Testing model
-Average reward over 1000 episodes = 111.254 
+Average reward over 1000 episodes = 179.568 
 
 
-Mean 111.254 and deviation 14.432861254789364
-Training time correlations: [ 0.18001166  0.03036233  1.         -0.20134394  0.02598769]
-Mean: [135.696  89.511 118.019 471.86  111.254], Standard deviation: [ 10.75274774  60.17261735 104.90063221  34.2525094   14.43286125]
+Mean 179.568 and deviation 53.5371214765979
+Training time correlations: [-0.04281765  0.09009936  1.          0.08150259  0.0712931 ]
+Mean: [107.165 109.868 113.528 109.549 179.568], Standard deviation: [23.01629369 18.39403642 26.25766966 23.09739377 53.53712148]
