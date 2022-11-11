@@ -74,6 +74,8 @@ def parse_args():
         help="the target KL divergence threshold")
     parser.add_argument("--num-changes", type=int, default=5,
         help="the number of changes to be made in the config")
+    parser.add_argument("--factor", type=float, default=3.0,
+        help="the factor by which the attribute is changed in the arithmetic progression")
     
     args = parser.parse_args()
     # 4 * 128 = 512
@@ -137,6 +139,35 @@ class Agent(nn.Module):
             action = probs.sample()
         return action, probs.log_prob(action), probs.entropy(), self.critic(x)
 
+def get_ap(start, diff, num_changes, take_start=True):
+    arr = []
+    for i in range(num_changes):
+        if i == 0 and not take_start:
+            continue
+        arr.append(start + i*diff)
+        
+    return arr
+
+def get_update_vals(init_val, num_terms, factor):
+    """
+        Constructs the intertwined arithmetic progression
+        x, x + x * f^2, x + x * f,  x + 2 * x * f^2, x + 2 * x * f, ....
+    """
+    # final_vals = []
+    ap1 = get_ap(init_val, init_val * factor, num_terms)
+    return np.array(ap1)
+    # ap2 = get_ap(init_val, init_val * (factor ** 2), num_terms, take_start=False)
+    
+    # p1 = 0
+    # p2 = 0
+    
+    # while(len(final_vals) < num_terms):
+    #     final_vals.append(ap1[p1])
+    #     final_vals.append(ap2[p2])
+    #     p1 += 1
+    #     p2 += 1
+        
+    # return np.array(final_vals[:num_terms])
 
 if __name__ == "__main__":
     args = parse_args()
@@ -192,24 +223,18 @@ if __name__ == "__main__":
     next_obs = torch.Tensor(envs.reset()).to(device)
     next_done = torch.zeros(args.num_envs).to(device)
     
-    # 512,000 // 512 = 1000
     num_updates = args.total_timesteps // args.batch_size
-    # 0, 1000, 2000, 3000, 4000, 5000 
     
     update_points = np.linspace(0, num_updates, args.num_changes + 1).astype(int)
     
-    # print(args.attr)
-    # x , 2x, 2^2x, 2^3x, 2^4x, 2^5x
-    
     first_value = getattr(envs.envs[0], args.attribute)
-    # second_value = getattr(envs.envs[0], args.attribute)
-    # first_value = second_value / 2
-    # last_value = first_value + (second_value - first_value) * args.num_changes
-    last_value = (2 ** args.num_changes) * first_value
-    # update_values = np.linspace(first_value, last_value, args.num_changes + 1)
+    all_updates = get_update_vals(first_value, args.num_changes, args.factor)
     
-    update_values = np.geomspace(first_value, last_value, args.num_changes + 1)
-    # update_values = update_values[::-1]
+    new_indices = [0, 3, 1, 4, 2]
+    update_values = []
+    for idx in new_indices:
+        update_values.append(all_updates[idx])
+    
     update_idx = 0
     
     for update in range(1, num_updates + 1):
@@ -222,6 +247,17 @@ if __name__ == "__main__":
                 setattr(env.unwrapped, args.attribute, update_values[update_idx])
                 setattr(env.unwrapped.unwrapped, args.attribute, update_values[update_idx])
 
+                my_masscart = getattr(env, "masscart")
+                my_masspole = getattr(env, "masspole")
+                my_length = getattr(env, "length")
+                
+                newattrs = {"total_mass": my_masspole + my_masscart, "polemass_length": my_masspole * my_length}
+                
+                for key, value in newattrs.items():
+                    setattr(env, key, value)
+                    setattr(env.unwrapped, key, value)
+                    setattr(env.unwrapped.unwrapped, key, value)
+                        
             update_idx += 1
             
         # Annealing the rate if instructed to do so.
