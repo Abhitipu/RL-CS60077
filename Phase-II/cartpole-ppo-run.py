@@ -2,13 +2,13 @@ import os
 
 if __name__ == "__main__":
     attributes = ["gravity", "masscart", "masspole", "length", "force_mag"]
-    # attributes = ["masscart"]
+    # attributes = ["length"]
     tt = int(51200 * 4)
     
     factors = {
         "force_mag": 3,
-        "length": 10,
-        "masspole": 3,
+        "length": 70,
+        "masspole": 10,
         "masscart": 3,
         "gravity": 2,
     }
